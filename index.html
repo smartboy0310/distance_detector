@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>distance_detector</title>
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+   <section class="time-determination-section">
+      <div class="container">
+         <h1 class="time-determination-heading text-center mb-3">Determine the time it takes to cover the distance</h1>
+         <p class="time-determination-paragraph text-center mb-4 text-info">How long does it take for each one to cover the given distance?</p>
+         <form class="time-determination-form p-3 form-control text-center">
+            <label class="time-determination__label">
+               Enter the distance
+               <input class="time-determination__input form-control " 
+               type="text"
+               name="input-number"
+               required 
+               placeholder="0.0"
+               />
+               <button class="time-determination__btn" type="submit">Calculation</button>
+            </label>
+            <div class="time-determination__warning warning mb-4 p-2">
+               
+            </div>
+            <div class="result-box">
+               <ul class="result-box__list">
+                  <li class="result-box__item">
+                     <label class="result-box__label">
+                        <input class="results result-foot visually-hidden" type="checkbox" name="user-check" value="foot">
+                        <span class="result-box__span">
+                           <img class="result-foot__img"
+                           src="./images/man.svg" 
+                           alt="foot icon"
+                           width="60"
+                           height="80">
+                        </span>
+                        on foot
+                     </label>
+                     <div class="result-box__item__result-foot result-box__item__result">
+                        
+                     </div>
+                  </li>
+                  <li class="result-box__item">
+                     <label class="result-box__label">
+                        <input class="results result-bicycle visually-hidden" type="checkbox" name="user-check" value="bicycle">
+                        <span class="result-box__span">
+                           <img class="result-bicycle__img"
+                           src="./images/bicycle.svg" 
+                           alt="bicycle icon"
+                           width="60"
+                           height="80">
+                        </span>
+                        on the bike
+                     </label>
+                     <div class="result-box__item__result-bike result-box__item__result">
+                        
+                     </div>
+                  </li>
+                  <li class="result-box__item">
+                     <label class="result-box__label">
+                        <input class="results result-car visually-hidden" type="checkbox" name="user-check" value="car">
+                        <span class="result-box__span">
+                           <img class="result-car__img"
+                           src="./images/car.svg" 
+                           alt="car icon"
+                           width="60"
+                           height="80">
+                        </span>
+                        in the car
+                     </label>
+                     <div class="result-box__item__result-car result-box__item__result">
+                        
+                     </div>
+                  </li>
+                  <li class="result-box__item">
+                     <label class="result-box__label">
+                        <input class="results result-plane visually-hidden" type="checkbox" name="user-check" value="plane">
+                        <span class="result-box__span">
+                           <img class="result-plane__img"
+                           src="./images/plane.svg" 
+                           alt="plane icon"
+                           width="60"
+                           height="80">
+                        </span>
+                        on the plane
+                     </label>
+                     <div class="result-box__item__result-plane result-box__item__result">
+                        
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </form>
+         
+      </div>
+   </section>
+   <script src="./js/main.js"></script>
+</body>
+</html>

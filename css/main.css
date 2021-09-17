@@ -1,0 +1,84 @@
+.time-determination-section {
+   padding: 40px 0;
+}
+.time-determination-heading {
+   width: 100%;
+   max-width: 500px;
+   margin: 0 auto;
+}
+.time-determination-form {
+   width: 100%;
+   max-width: 700px;
+   margin: 0 auto;
+   padding: 10px;
+} 
+.time-determination__label {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.time-determination__input {
+   width: 100%;
+   max-width: 300px; 
+   border-radius: 5px;
+}
+
+
+.time-determination__warning {
+   width: 100%;
+   max-width: 300px;
+   margin: 0 auto;
+   height: 30px;
+}
+.warning {
+   content: '';
+}
+.time-determination__btn {
+   padding: 4px 25px;
+   background-color: #5FB4A2;
+   border: none;
+   border-radius: 5px;
+}
+.time-determination__btn:hover {
+   background-color: #198f75;
+}
+.time-determination__btn:active {
+   color: #fff;
+   background-color: #09362b;
+}
+.result-box__list {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   list-style-type: none;
+}
+.result-box__item {
+   width: 100%;
+   max-width: 150px;
+   border: 1px solid;
+   border-radius: 10px;
+}
+.result-box__label{
+   padding: 5px;
+}
+.result-box__span {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.result-box__span:hover {
+   background-color: #FDD6BA;
+}
+.results:checked + .result-box__span {
+   background-color: #0E8784;
+}
+.result-box__item__result {
+   width: 100%;
+   max-width: 120px;
+   height: 50px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   border: 1px solid;
+   border-radius: 5px;
+}
