@@ -54,7 +54,7 @@
 }
 .result-box__item {
    width: 100%;
-   max-width: 250px;
+   max-width: 220px;
    border: 1px solid;
    border-radius: 10px;
 }
@@ -75,7 +75,7 @@
 }
 .result-box__item__result {
    width: 100%;
-   max-width: 240px;
+   max-width: 200px;
    height: 50px;
    margin: 0 auto;
    margin-bottom: 10px;
