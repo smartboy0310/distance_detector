@@ -36,12 +36,12 @@ elForm.addEventListener('submit', function (evt) {
    }
    
    distance_detector(inputDistance);
-   timeOnFood = Math.trunc(timeOnFood) + ' saot ' + (Math.trunc(timeOnFood * 60)%60) + ' minut ' + (Math.trunc(timeOnFood * 3600)%60) + ' sekund';
+   timeOnFood = Math.trunc(timeOnFood) + ' soat ' + (Math.trunc(timeOnFood * 60)%60) + ' minut ' + (Math.trunc(timeOnFood * 3600)%60) + ' sekund';
    elResultFoot.textContent = timeOnFood;
-   timeOnBike = Math.trunc(timeOnBike) + ' saot ' + (Math.trunc(timeOnBike * 60)%60) + ' minut ' + (Math.trunc(timeOnBike * 3600)%60) + ' sekund';
+   timeOnBike = Math.trunc(timeOnBike) + ' soat ' + (Math.trunc(timeOnBike * 60)%60) + ' minut ' + (Math.trunc(timeOnBike * 3600)%60) + ' sekund';
    elResultBike.textContent = timeOnBike;
-   timeInCar = Math.trunc(timeInCar) + ' saot ' + (Math.trunc(timeInCar * 60)%60) + ' minut ' + (Math.trunc(timeInCar * 3600)%60) + ' sekund';
+   timeInCar = Math.trunc(timeInCar) + ' soat ' + (Math.trunc(timeInCar * 60)%60) + ' minut ' + (Math.trunc(timeInCar * 3600)%60) + ' sekund';
    elResultCar.textContent = timeInCar;
-   timeOnPlane = Math.trunc(timeOnPlane) + ' saot ' + (Math.trunc(timeOnPlane * 60)%60) + ' minut ' + (Math.trunc(timeOnPlane * 3600)%60) + ' sekund';
+   timeOnPlane = Math.trunc(timeOnPlane) + ' soat ' + (Math.trunc(timeOnPlane * 60)%60) + ' minut ' + (Math.trunc(timeOnPlane * 3600)%60) + ' sekund';
    elResultPlane.textContent = timeOnPlane;
 })
